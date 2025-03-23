@@ -1,0 +1,11 @@
+<h1>Dragon Ball Page</h1>
+<hr />
+<section class="row">
+  <div class="col-12 col-sm-6">
+    <dbs-character-add (newCharacter)="addCharacter($event)"></dbs-character-add>
+  </div>
+
+  <div class="col-12 col-sm-6">
+    <dbs-character-list [characters]="characters" listName="Lista de personajes"></dbs-character-list>
+  </div>
+</section>
